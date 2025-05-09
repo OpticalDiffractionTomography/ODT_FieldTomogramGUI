@@ -56,7 +56,8 @@ The workflow consists of three steps:
 
 1. Choose the **Analysis Option** to retrieve the field from either a single hologram or all sample holograms.
 2. Click **"Retrieval"** to begin. The progress is displayed in real time.
-3. Once completed:
+3. Field retrieval for a single sample typically takes 1–2 minutes, depending on your system’s specifications.
+4. Once completed:
    - The phase delay map at normal incidence is shown.
    - Retrieved fields are saved as `Field_*.mat` in the `field_retrieval/` folder.
    - Six representative phase maps and a central cross-section from 150 angles are also saved as `Field_*.png`.
@@ -70,12 +71,13 @@ The workflow consists of three steps:
      - **Phase gradient** (green line)
    - Frames exceeding these thresholds will be excluded for tomogram reconstruction.
 3. Click **"Reconstruct"** to begin reconstruction. Progress is displayed live.
-4. Once completed:
+4. Tomogram reconstruction for a single sample typically takes 2–3 minutes, depending on your system’s specifications.
+5. Once completed:
    - A cross-sectional slice (x-y, y-z, or x-z) of the latest sample is displayed.
    - Navigate through different planes using the GUI.
    - Tomograms are saved as `Tomogram_*.mat` in the `field_retrieval/` folder.
    - Cross-sectional slices and maximum projection images are also saved.
-5. Export to TIFF:
+6. Export to TIFF:
    - Click **"Export TIFF"** to generate 16-bit stackable TIFF files readable by ImageJ/FIJI.
    - Refractive index (RI) values are scaled by 10,000 (e.g., RI 1.344 → value 13440).
    - Axial and lateral resolutions differ and can be checked from the variables `res3` (lateral) and `res4` (axial) in the `.mat` file.
