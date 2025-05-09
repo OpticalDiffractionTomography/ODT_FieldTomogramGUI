@@ -61,6 +61,7 @@ The workflow consists of three steps:
    - The phase delay map at normal incidence is shown.
    - Retrieved fields are saved as `Field_*.mat` in the `field_retrieval/` folder.
    - Six representative phase maps and a central cross-section from 150 angles are also saved as `Field_*.png`.
+5. Click on the displayed phase delay map to begin marking sample regions. Click and drag around the sample area to draw a sample mask—masked regions appear in semi-transparent white. You can adjust the mask size using the mouse scroll wheel. Use the toggle to switch between "Draw" and "Erase" modes as needed. When finished, click "Stop Masking" to complete the process.
 
 ### 3. Tomogram Reconstruction (Blue Box)
 
