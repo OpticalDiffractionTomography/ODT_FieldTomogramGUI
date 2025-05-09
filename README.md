@@ -39,6 +39,13 @@ Each `.mat` file should include the following variables required for field retri
 - `NA`: Numerical aperture of the detection objective lens.
 - `lambda`: Illumination wavelength (in µm).
 - `tomogMap`: A 3D array of raw holograms (x, y, θ) from 150 illumination angles. The hologram corresponding to normal illumination should be at index 49.
+
+A demo dataset is available for download at:https://doi.org/10.6084/m9.figshare.28988165.v1
+
+The sample contains a nucleus in a Xenopus egg extract, as presented in the following study:
+
+Biswas, A. et al. (2023). Conserved nucleocytoplasmic density homeostasis drives cellular organization across eukaryotes. bioRxiv. https://doi.org/10.1101/2023.09.05.556409
+
  
 ---
 
